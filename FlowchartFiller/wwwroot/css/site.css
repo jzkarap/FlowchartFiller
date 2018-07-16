@@ -36,8 +36,6 @@ body {
     }
 }
 
-
-
 .flowchart_picture {
     display: block;
     margin-left: auto;
@@ -52,6 +50,26 @@ body {
     width: 1000px;
     position: relative;
     display: inline-block;
+}
+
+.board_title {
+    position: absolute;
+    top: 172px;
+    font-weight: bold;
+    left: 376px;
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+    transform: rotate(3deg);
+    opacity: .6;
+    width: 240px;
+    height: 40px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: 1.6em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
 }
 
 .start {
@@ -69,6 +87,26 @@ body {
     font-family: 'Dekko', cursive;
     text-align: center;
     font-size: 1em;
+    resize: none;
+    overflow: hidden;
+    padding-right: 4px;
+}
+
+.side_info {
+    position: absolute;
+    top: 362px;
+    font-weight: bold;
+    left: -38px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 180px;
+    height: 55px;
+    transform: rotate(282deg);
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: 1.2em;
     resize: none;
     overflow: hidden;
     padding-right: 4px;
@@ -223,6 +261,183 @@ body {
     font-family: 'Dekko', cursive;
     text-align: center;
     font-size: .8em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
+.bottom_4 {
+    position: absolute;
+    top: 406px;
+    left: 527px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 108px;
+    height: 58px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: .8em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
+.mid_3 {
+    position: absolute;
+    top: 318px;
+    left: 530px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 116px;
+    height: 58px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: .8em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+
+.top_4 {
+    position: absolute;
+    top: 242px;
+    left: 542px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 116px;
+    height: 51px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: .8em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+    padding-top: 8px;
+}
+
+.end {
+    position: absolute;
+    top: 218px;
+    font-weight: bold;
+    left: 732px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .8;
+    width: 138px;
+    height: 102px;
+    transform: rotate(310deg);
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: 1em;
+    resize: none;
+    overflow: hidden;
+    padding-right: 4px;
+}
+
+.blue_span_1_top {
+    position: absolute;
+    top: 511px;
+    left: 124px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #224884;
+    opacity: .7;
+    width: 360px;
+    height: 30px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: 1.2em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
+.blue_span_2_top {
+    position: absolute;
+    top: 502px;
+    left: 532px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #224884;
+    opacity: .7;
+    width: 240px;
+    transform: rotate(-3deg);
+    height: 30px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: 1.2em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
+.blue_span_1_bottom {
+    position: absolute;
+    top: 542px;
+    left: 124px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #224884;
+    opacity: .7;
+    width: 360px;
+    height: 30px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: 1.2em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
+.blue_span_2_bottom {
+    position: absolute;
+    top: 542px;
+    left: 532px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #224884;
+    opacity: .7;
+    width: 240px;
+    transform: rotate(-3deg);
+    height: 30px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: 1.2em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
+.footnote {
+    position: absolute;
+    top: 580px;
+    left: 113px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: darkred;
+    opacity: .65;
+    width: 580px;
+    transform: rotate(2deg);
+    height: 60px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: 1.4em;
     resize: none;
     overflow: hidden;
     padding-left: 4px;
