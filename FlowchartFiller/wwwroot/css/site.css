@@ -54,28 +54,50 @@ body {
     display: inline-block;
 }
 
-.top_1 {
+.start {
     position: absolute;
-    top: 225px;
-    left: 110px;
+    top: 200px;
+    font-weight: bold;
+    left: 4px;
     background-color: transparent;
     border-color: transparent;
     color: #45484c;
     opacity: .7;
-    width: 56px;
-    height: 60px;
-    transform: rotate(40deg);
+    width: 80px;
+    height: 55px;
+    transform: rotate(310deg);
     font-family: 'Dekko', cursive;
     text-align: center;
-    font-size: .8em;
+    font-size: 1em;
     resize: none;
     overflow: hidden;
     padding-right: 4px;
 }
 
+.top_1 {
+    position: absolute;
+    top: 225px;
+    font-weight: bold;
+    left: 109px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 56px;
+    height: 55px;
+    transform: rotate(310deg);
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: .8em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
 .top_2 {
     position: absolute;
-    top: 220px;
+    top: 219px;
+    font-weight: bold;
     left: 242px;
     background-color: transparent;
     border-color: transparent;
@@ -83,6 +105,121 @@ body {
     opacity: .7;
     width: 100px;
     height: 53px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: .8em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
+.top_3 {
+    position: absolute;
+    top: 233px;
+    left: 412px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 40px;
+    height: 50px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: .8em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
+.mid_2 {
+    position: absolute;
+    top: 328px;
+    left: 270px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 76px;
+    height: 50px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: .8em;
+    resize: none;
+    overflow: hidden;
+    padding-right: 2px;
+    padding-top: 4px;
+}
+
+.mid_1 {
+    position: absolute;
+    top: 332px;
+    left: 104px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 85px;
+    height: 50px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: .8em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
+.bottom_1 {
+    position: absolute;
+    top: 423px;
+    left: 108px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 85px;
+    height: 50px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: .8em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
+.bottom_2 {
+    position: absolute;
+    top: 418px;
+    left: 228px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 72px;
+    height: 48px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-size: .8em;
+    resize: none;
+    overflow: hidden;
+    padding-left: 4px;
+}
+
+.bottom_3 {
+    position: absolute;
+    top: 408px;
+    left: 346px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 122px;
+    height: 66px;
     font-family: 'Dekko', cursive;
     text-align: center;
     font-size: .8em;
