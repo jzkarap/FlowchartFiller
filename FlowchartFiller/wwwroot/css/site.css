@@ -35,3 +35,39 @@ body {
         display: none;
     }
 }
+
+
+
+.flowchart_picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.flowchart_page {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    position: relative;
+    display: inline-block;
+}
+
+.top_1 {
+    position: absolute;
+    top: 225px;
+    left: 110px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #45484c;
+    opacity: .7;
+    width: 56px;
+    height: 60px;
+    transform: rotate(40deg);
+    font-family: 'Dekko', cursive;
+    text-align: start;
+    font-size: .8em;
+    resize: none;
+    overflow: hidden;
+}

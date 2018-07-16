@@ -8,4 +8,11 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="Views\Home\About.cshtml" />
+    <Content Remove="wwwroot\images\IMG_4591.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\images\IMG_4591.jpg" />
+  </ItemGroup>
 </Project>
